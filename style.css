@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+* {
+    overflow: auto;
+}
+
+/* Header design goes here */
+header {
+    background: red;
+}
+
+/* Main design goes here */
+main {
+    background: lightblue;
+}
+
+/* Footer design goes here */
+footer {
+    background: grey;
+}
