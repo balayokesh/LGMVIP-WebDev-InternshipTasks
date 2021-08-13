@@ -6,6 +6,7 @@ body {
 }
 * {
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 header, footer, main div {
@@ -14,7 +15,36 @@ header, footer, main div {
 
 /* Header design goes here */
 header {
-    background: red;
+    background: url('images/bg.jfif') fixed no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header h1 {
+    margin-top: 0;
+    font-size: 2.50em;
+    color: white;
+    background: rgb(0, 0, 0, .9);
+    padding: 3%;
+}       
+header p#text-content {
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0, .9);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.25em;
+    padding: 3%;
+    margin: 3%;
+}
+header a#down {
+    font-size: 2em;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+    align-self: center;
 }
 
 /* Main design goes here */
