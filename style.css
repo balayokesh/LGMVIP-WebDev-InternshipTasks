@@ -8,6 +8,10 @@ body {
     overflow: auto;
 }
 
+header, footer, main div {
+    height: 100vh;
+}
+
 /* Header design goes here */
 header {
     background: red;
