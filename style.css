@@ -9,7 +9,7 @@ body {
 }
 
 header, footer, main div {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Header design goes here */
@@ -20,6 +20,17 @@ header {
 /* Main design goes here */
 main {
     background: lightblue;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main div img {
+    width: 80%;
+    margin: 1%;
+    border-radius: 10px;
 }
 
 /* Footer design goes here */
