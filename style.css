@@ -9,7 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 
-header, footer, main div {
+header, footer {
     min-height: 100vh;
 }
 
@@ -67,6 +67,15 @@ main div img {
 main div#customer-card {
     font-size: 1.25em;
     padding: 5%;
+    background: lightgrey;
+    text-align: center;
+}
+main div#customer-card div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    background: white;
+    margin: 5% 0;
 }
 main div#customer-card img {
     border-radius: 50%;
@@ -77,6 +86,8 @@ main div#customer-card img {
 /* All the form style goes here */
 main div#form {
     font-size: 1.50em;
+    background: linear-gradient(lightgreen, lightblue);
+    min-height: 100vh   ;
 }
 main div#form form {
     width: 90%;
@@ -85,10 +96,12 @@ main div#form form {
     overflow: hidden;
 }
 main div#form form input {
-    width: 100%;
+    width: 95%;
     margin: 20px 0;
     font-size: 1.25em;
     border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
 }
 main div#form form button {
     display: inline-block;
@@ -98,19 +111,23 @@ main div#form form button {
     border-radius: 10px;
     font-size: 1.25em;
     margin-top: 50px;
+    background: purple;
+    color: white;
 }
 
 /* Footer design goes here */
 footer {
-    background: grey;
+    background: rgb(0, 0, 0, .9);
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
-footer div {
-    padding: 10%;
+footer a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer div:first-child{
     font-size: 1.50em;
