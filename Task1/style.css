@@ -3,6 +3,7 @@ body {
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif
 }
 * {
     overflow: auto;
@@ -39,12 +40,12 @@ header p#text-content {
     margin: 3%;
 }
 header a#down {
-    font-size: 2em;
-    overflow: hidden;
-    border: 1px solid black;
+    font-size:1.752em;
     border-radius: 50%;
-    background: black;
+    background: white;
+    color: black;
     align-self: center;
+    text-decoration: none;
 }
 
 /* Main design goes here */
@@ -69,7 +70,7 @@ main div img {
     overflow: hidden;
 }
 .mySlides img {
-    width: 90vw;
+    width: 80vw;
     vertical-align: middle;
     overflow: hidden;
 }
@@ -80,13 +81,14 @@ main div img {
   margin: auto;
   overflow: hidden;
   text-align: center;
+  margin: 2%;
+  padding: 0;
 }
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 2em;
-  background: black;
-  text-align: center;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    text-align: center;
 }
 .active {
   background-color: #717171;
@@ -111,6 +113,30 @@ main div#dots {
     display: none;
 }
 
+/* Customer feedback card design goes here */
+main div#customer-card {
+    font-size: 1.25em;
+    padding: 5%;
+    background: lightgreen;
+    text-align: center;
+}
+main div#customer-card div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    background: white;
+    margin: 5% 0;
+}
+main div#customer-card p {
+    font-family: sans-serif;
+    font-style: italic;
+}
+main div#customer-card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
 /* Newsletter style goes here */
 main div#newsletter {
     text-align: center;
@@ -128,38 +154,21 @@ main div#newsletter input{
     border-radius: 10px;
 }
 main div#newsletter button {
-    padding: 2% 5%;
-    margin: 2%;
-    border-radius: 10px;
-    background: purple;
-    color: white;
-    font-size: 1.25em;
-}
-
-/* Customer feedback card design goes here */
-main div#customer-card {
-    font-size: 1.25em;
-    padding: 5%;
-    background: lightgrey;
-    text-align: center;
-}
-main div#customer-card div {
+    display: inline-block;
+    width: 90%;
+    padding: 2%;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 5%;
-    background: white;
-    margin: 5% 0;
-}
-main div#customer-card img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    font-size: 1.25em;
+    margin-bottom: 50px;
+    background: purple;
+    color: white;
 }
 
 /* All the form style goes here */
 main div#form {
     font-size: 1.50em;
-    background: linear-gradient(lightgreen, lightblue);
+    background: lightblue;
     min-height: 100vh   ;
 }
 main div#form form {
@@ -171,7 +180,7 @@ main div#form form {
 main div#form form input {
     width: 95%;
     margin: 20px 0;
-    font-size: 1.25em;
+    font-size: 1.15em;
     border: 1px solid black;
     border-radius: 10px;
     padding: 2%;
@@ -200,7 +209,8 @@ footer {
 }
 footer a {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
 }
 footer div:first-child{
     font-size: 1.50em;
