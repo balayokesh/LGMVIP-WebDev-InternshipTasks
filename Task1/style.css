@@ -218,3 +218,18 @@ footer div:first-child{
 footer div:nth-child(2){
     font-size: 1.50em;
 }
+
+@media screen and (min-width: 900px) {
+    /* Shrink customer card div size */
+    main div#customer-card div {
+        width: 50%;
+    }
+    /* Shrink newletter signup page size */
+    main div#newsletter input, main div#newsletter button {
+        width: 50%;
+    }
+    /* Shrink form size on large device */
+    main div#form form {
+        width: 50%;
+    }
+}
