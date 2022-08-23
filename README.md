@@ -5,5 +5,4 @@
  * Youtube video link: https://youtu.be/bqPgP2EQjkw
 
 ### Task 2:
- * Website link: https://balayokesh.github.io/LGMVIP-WebDev-InternshipTasks/task2/  
  * Youtube video link: https://youtu.be/bK4cSerEASU
